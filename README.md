@@ -8,7 +8,7 @@ https://kreativehorizon.com/hackisu/
 
 
 ## Group
-
+ - Elmin Didic www.github.com/ElminD
  -  Noah Whilm www.github.com/noahwhlim
  - Endi Odobasic www.github.com/endiodobasic
  - Carver Bartz www.github.com/cjbartz
