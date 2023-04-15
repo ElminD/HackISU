@@ -5,11 +5,9 @@ This Hackathon was hosted by Kreative Horzion for Iowa State Students to have th
 https://kreativehorizon.com/hackisu/
 
 
-
-
 ## Group
  - Elmin Didic www.github.com/ElminD
- -  Noah Whilm www.github.com/noahwhlim
+ - Noah Lim www.github.com/noahwhlim
  - Endi Odobasic www.github.com/endiodobasic
  - Carver Bartz www.github.com/cjbartz
 
