@@ -1,32 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
 import Navbar from './components/Navbar';
-import Reviews from './components/Reviews';
 import Companie from './components/Companie';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Reviews from './components/Reviews';
+import Salary from './components/Salary';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-    <Companie /> 
-    <Companie /> 
-    <Companie /> 
-    <Companie /> 
-    <Companie /> 
-    <Companie /> 
-    </div>
-    
-    
-    {/* <Navbar /> */}
+    <BrowserRouter>
+      <Navbar />
+      
+      <Routes>
+        <Route path='/Salary' element={<Salary />} />
+        <Route path='/companie' element={<Companie />} />
+        <Route path='/reviews' element={<Reviews />} />
+        <Route path='/reviews/:company' element={<Reviews />} />
+      </Routes>
 
-    {/* <Reviews /> */}
-  </React.StrictMode>
+    </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-

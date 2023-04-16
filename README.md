@@ -9,7 +9,6 @@ https://kreativehorizon.com/hackisu/
  - Elmin Didic www.github.com/ElminD
  - Noah Lim www.github.com/noahwhlim
  - Endi Odobasic www.github.com/endiodobasic
- - Carver Bartz www.github.com/cjbartz
 
  
 
